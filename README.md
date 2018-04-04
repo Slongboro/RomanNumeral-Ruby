@@ -1,10 +1,10 @@
 # RomanNumeral-Ruby
 
 ## Helpful run commands
-####cd to your directory
+#### cd to your directory
 cd Git/RomanNumeral-Ruby
 
-####Open Atom
+#### Open Atom
 atom .
 
 #### Run tests
