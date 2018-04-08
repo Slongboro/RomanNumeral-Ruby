@@ -22,9 +22,9 @@ describe RomanNumeral do
    expect(romanNumeral.add("V", "I")).to eq("VI")
  end
 
-it "Will add VIIII and I and calculate X" do
+it "Will add V and V and calculate X" do
   romanNumeral = RomanNumeral.new
-  expect(romanNumeral.add("VIIII", "I")).to eq("X")
+  expect(romanNumeral.add("V", "V")).to eq("X")
 
 end
 
