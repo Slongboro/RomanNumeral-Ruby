@@ -15,8 +15,17 @@ describe RomanNumeral do
   it "Will add II and III and calculate V" do
       romanNumeral = RomanNumeral.new
       expect(romanNumeral.add("II", "III")).to eq("V")
-
-      
   end
+
+ it "Will add V and I end calculate VI" do
+   romanNumeral = RomanNumeral.new
+   expect(romanNumeral.add("V", "I")).to eq("VI")
+ end
+
+it "Will add VIIII and I and calculate X" do
+  romanNumeral = RomanNumeral.new
+  expect(romanNumeral.add("VIIII", "I")).to eq("X")
+
+end
 
 end

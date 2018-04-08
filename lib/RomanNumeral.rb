@@ -9,4 +9,8 @@ class RomanNumeral
     value.gsub("IIIII", "V")
   end
 
+def convertFromI(value)
+    value.gsub("VIIIII", "X")
+  end
+
 end
