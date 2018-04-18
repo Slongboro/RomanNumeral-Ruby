@@ -28,4 +28,10 @@ it "Will add V and V and calculate X" do
 
 end
 
+it "will add I and III and calculate IV" do
+  romanNumeral = RomanNumeral.new
+  expect(romanNumeral.add("I", "III")).to eq("IV")
+end
+
+
 end
