@@ -8,15 +8,18 @@ class RomanNumeral
   end
 
   def convertFromI(value)
-    value = value.gsub("IIIII", "V")
-    value = value.gsub("VV", "X")
-    value = value.gsub("IIII", "IV")
 
+    value = value.gsub("IIIII", "V")
+    value = value.gsub("IIIIIIIII", "IX")
+    value = value.gsub("IIII", "IV")
+    value = value.gsub("VV", "X")
 
   end
 
   def convertToI(value)
     value = value.gsub("V", "IIIII")
+    value = value.gsub("IV", "IIII")
+    
 
 
    end
